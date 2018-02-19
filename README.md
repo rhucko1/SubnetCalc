@@ -2,17 +2,18 @@
 IPv4 Subnet Calculator - commandline tool and module  
 
 
+
 Copyright (c) 2018, rhucko1
 
 
 All rights reserved.
 
 
-(see *Required Packages/Modules below)
 
 
 *Required Packages/Modules:
-NumPy  www.numpy.org
+
+    NumPy   -   http://www.numpy.org
 
 
 
