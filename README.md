@@ -8,6 +8,7 @@ NumPy  www.numpy.org
 Sample Use:
 
 Windows/*nix:
+
     python nmflbx.py 192.168.0.1/24
     
     python nmflbx.py 192.168.0.1
@@ -16,6 +17,7 @@ Windows/*nix:
     
 
 *nix:
+
     ./nmflbx.py 192.168.0.1/24
     
     ./nmflbx.py 192.168.0.1
