@@ -1,28 +1,40 @@
 # SubnetCalc
-IPv4 Subnet Calculator
-Copyright 2018 Richard Hucko
+IPv4 Subnet Calculator - commandline tool and module  
 
-Required Packages/Modules:
+
+Copyright (c) 2018, rhucko1
+
+
+All rights reserved.
+
+
+(see *Required Packages/Modules below)
+
+
+*Required Packages/Modules:
 NumPy  www.numpy.org
 
-Sample Use:
 
-Windows/*nix:
 
-    python nmflbx.py 192.168.0.1/24
-    
-    python nmflbx.py 192.168.0.1
-    
-    python nmflbx.py
-    
 
-*nix:
+Sample Usage:
 
-    ./nmflbx.py 192.168.0.1/24
-    
-    ./nmflbx.py 192.168.0.1
-    
-    ./nmflbx.py
+    Windows/*nix:
+
+        python nmflbx.py 192.168.0.1/24
+
+        python nmflbx.py 192.168.0.1
+
+        python nmflbx.py
+
+
+    *nix:
+
+        ./nmflbx.py 192.168.0.1/24
+
+        ./nmflbx.py 192.168.0.1
+
+        ./nmflbx.py
     
 
 Tested with: Python 3.4.3 and Python 2.7.11 on Fedora 22 (Linux Kernel 4.0.4)
