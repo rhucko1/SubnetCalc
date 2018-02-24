@@ -18,9 +18,16 @@ def octManip(str1,str2,operator="+"):
 	for i in range(len(list1)-1,-1,-1):
 		list1[i]=int(list1[i])
 		list2[i]=int(list2[i])
-		solution=eval(str(list1[i])+str(operator)+str(list2[i]))
+		if operator == '+':
+			solution=int(list1[i]).__add__(int(list2[i]))
+		elif operator == '-':
+			solution=int(list1[i]).__sub__(int(list2[i]))
+		elif operator == '*':
+			solution=int(list1[i]).__mul__(int(list2[i]))
+		elif operator == '/':
+			solution=int(list1[i]).__div__(int(list2[i]))
 		if upOne:
-			solution=eval(str(solution)+str('+')+str('1'))
+			solution=int(solution).__add__(1)
 			upOne=True
 		if solution>=256:
 			solution=0
